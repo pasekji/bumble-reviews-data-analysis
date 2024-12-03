@@ -36,9 +36,13 @@ bumble-analysis/
 ├── data/               # dataset directory
 ├── src/               # source code
 │   └── analyzer.py    # main analyzer
+├── outputs/           # analysis outputs
+│   ├── bumble_analysis.log    # complete processing log
+│   ├── results.txt            # results log
+│   └── ratings_distribution.png  # ratings visualization
 ├── requirements.txt   # dependencies
 └── README.md
-```
+``` 
 
 ## Author
 Jiří Pašek  
