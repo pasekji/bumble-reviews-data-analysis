@@ -413,17 +413,15 @@ class BumbleReviewAnalyzer:
             
             logger.info("\nLSA Topics:")
             for topic, words in topics['lsa']['topics'].items():
-                logger.info("\nLSA Topics:")
-                for topic, words in topics['lsa']['topics'].items():
-                    logger.info(f"\n{topic}:")
-                    for word, score in words:
-                        logger.info(f"  - {word} (importance: {score:.3f})")
+                logger.info(f"\n{topic}:")
+                for word, score in words:
+                    logger.info(f"  - {word} (importance: {score:.3f})")
                 
-                end_time = datetime.now()
-                duration = end_time - start_time
-                logger.info(f"\nAnalysis completed in {duration}")
+            end_time = datetime.now()
+            duration = end_time - start_time
+            logger.info(f"\nAnalysis completed in {duration}")
                 
-                return df, vectors, topics
+            return df, vectors, topics
                 
         except Exception as e:
             logger.error(f"Error during analysis: {str(e)}")
