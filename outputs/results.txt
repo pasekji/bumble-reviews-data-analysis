@@ -1,0 +1,190 @@
+2024-11-23 00:27:46,410 - INFO - Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2024-11-23 00:27:46,463 - INFO - DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+2024-11-23 00:27:48,944 - INFO - Request to DeepL API method=POST url=https://api-free.deepl.com/v2/translate
+2024-11-23 00:27:48,999 - INFO - DeepL API response status_code=200 url=https://api-free.deepl.com/v2/translate
+Processing batches: 100%|███████████████████████████████████████████████████████████| 138/138 [2:25:33<00:00, 63.29s/it]
+2024-11-23 00:27:51,165 - INFO - Removed 15628 reviews (empty or too short)
+2024-11-23 00:27:51,166 - INFO - Final number of reviews: 122041
+2024-11-23 00:27:51,212 - INFO - Average review length: 81.14 characters
+2024-11-23 00:27:51,214 - INFO - Median review length: 57.0 characters
+2024-11-23 00:27:51,220 - INFO -
+Vectorizing texts...
+2024-11-23 00:27:51,220 - INFO - Applying BoW vectorization...
+2024-11-23 00:27:51,834 - INFO - Applying TF-IDF vectorization...
+2024-11-23 00:27:52,490 - INFO - Vocabulary size: 1000 terms
+2024-11-23 00:27:52,490 - INFO -
+Extracting topics...
+2024-11-23 00:27:52,490 - INFO - Running LDA analysis...
+2024-11-23 00:30:49,337 - INFO - Running LSA analysis...
+2024-11-23 00:30:49,835 - INFO - Topic extraction completed
+2024-11-23 00:30:49,837 - INFO -
+Extracted Topics with Importance Scores:
+2024-11-23 00:30:49,839 - INFO -
+LDA Topics:
+2024-11-23 00:30:49,843 - INFO -
+Topic 1:
+2024-11-23 00:30:49,843 - INFO -   - account (importance: 7457.480)
+2024-11-23 00:30:49,845 - INFO -   - try (importance: 5542.211)
+2024-11-23 00:30:49,845 - INFO -   - say (importance: 5010.795)
+2024-11-23 00:30:49,845 - INFO -   - work (importance: 4927.900)
+2024-11-23 00:30:49,845 - INFO -   - block (importance: 3918.444)
+2024-11-23 00:30:49,845 - INFO -   - keep (importance: 3859.848)
+2024-11-23 00:30:49,845 - INFO -   - photo (importance: 3774.191)
+2024-11-23 00:30:49,845 - INFO -   - humble (importance: 3603.587)
+2024-11-23 00:30:49,846 - INFO -   - back (importance: 3555.247)
+2024-11-23 00:30:49,846 - INFO -   - delete (importance: 3215.746)
+2024-11-23 00:30:49,846 - INFO -   - phone (importance: 3207.177)
+2024-11-23 00:30:49,846 - INFO -   - get (importance: 3190.241)
+2024-11-23 00:30:49,846 - INFO -   - reason (importance: 3161.588)
+2024-11-23 00:30:49,846 - INFO -   - update (importance: 3084.346)
+2024-11-23 00:30:49,846 - INFO -
+Topic 2:
+2024-11-23 00:30:49,847 - INFO -   - people (importance: 14125.458)
+2024-11-23 00:30:49,847 - INFO -   - meet (importance: 7253.103)
+2024-11-23 00:30:49,847 - INFO -   - find (importance: 5060.299)
+2024-11-23 00:30:49,847 - INFO -   - humble (importance: 4641.992)
+2024-11-23 00:30:49,847 - INFO -   - great (importance: 4637.519)
+2024-11-23 00:30:49,847 - INFO -   - good (importance: 4111.018)
+2024-11-23 00:30:49,847 - INFO -   - friend (importance: 3645.880)
+2024-11-23 00:30:49,848 - INFO -   - love (importance: 2872.901)
+2024-11-23 00:30:49,848 - INFO -   - new (importance: 2798.536)
+2024-11-23 00:30:49,848 - INFO -   - filter (importance: 2619.877)
+2024-11-23 00:30:49,848 - INFO -   - thank (importance: 2231.279)
+2024-11-23 00:30:49,848 - INFO -   - set (importance: 2118.879)
+2024-11-23 00:30:49,848 - INFO -   - location (importance: 2012.193)
+2024-11-23 00:30:49,848 - INFO -   - life (importance: 1985.375)
+2024-11-23 00:30:49,849 - INFO -
+Topic 3:
+2024-11-23 00:30:49,849 - INFO -   - subscription (importance: 7295.097)
+2024-11-23 00:30:49,849 - INFO -   - money (importance: 5259.663)
+2024-11-23 00:30:49,849 - INFO -   - charge (importance: 4793.195)
+2024-11-23 00:30:49,849 - INFO -   - service (importance: 4391.346)
+2024-11-23 00:30:49,849 - INFO -   - do (importance: 4278.189)
+2024-11-23 00:30:49,850 - INFO -   - premium (importance: 3814.489)
+2024-11-23 00:30:49,850 - INFO -   - cancel (importance: 3738.198)
+2024-11-23 00:30:49,850 - INFO -   - account (importance: 3736.994)
+2024-11-23 00:30:49,850 - INFO -   - not (importance: 3560.192)
+2024-11-23 00:30:49,850 - INFO -   - pay (importance: 3444.003)
+2024-11-23 00:30:49,850 - INFO -   - humble (importance: 3337.982)
+2024-11-23 00:30:49,851 - INFO -   - customer (importance: 2950.105)
+2024-11-23 00:30:49,851 - INFO -   - day (importance: 2913.395)
+2024-11-23 00:30:49,851 - INFO -   - take (importance: 2559.887)
+2024-11-23 00:30:49,851 - INFO -
+Topic 4:
+2024-11-23 00:30:49,851 - INFO -   - pay (importance: 19160.390)
+2024-11-23 00:30:49,851 - INFO -   - like (importance: 11974.192)
+2024-11-23 00:30:49,852 - INFO -   - match (importance: 11447.754)
+2024-11-23 00:30:49,852 - INFO -   - wipe (importance: 10299.844)
+2024-11-23 00:30:49,852 - INFO -   - see (importance: 9639.476)
+2024-11-23 00:30:49,852 - INFO -   - money (importance: 7713.731)
+2024-11-23 00:30:49,852 - INFO -   - waste (importance: 6756.679)
+2024-11-23 00:30:49,852 - INFO -   - free (importance: 6518.180)
+2024-11-23 00:30:49,852 - INFO -   - people (importance: 6322.420)
+2024-11-23 00:30:49,853 - INFO -   - premium (importance: 5180.905)
+2024-11-23 00:30:49,853 - INFO -   - day (importance: 5160.591)
+2024-11-23 00:30:49,853 - INFO -   - get (importance: 4720.039)
+2024-11-23 00:30:49,853 - INFO -   - right (importance: 4224.725)
+2024-11-23 00:30:49,854 - INFO -   - side (importance: 3897.100)
+2024-11-23 00:30:49,854 - INFO -
+Topic 5:
+2024-11-23 00:30:49,854 - INFO -   - woman (importance: 13724.181)
+2024-11-23 00:30:49,854 - INFO -   - good (importance: 10252.028)
+2024-11-23 00:30:49,854 - INFO -   - well (importance: 9334.992)
+2024-11-23 00:30:49,854 - INFO -   - first (importance: 9118.159)
+2024-11-23 00:30:49,854 - INFO -   - man (importance: 6322.189)
+2024-11-23 00:30:49,854 - INFO -   - tinder (importance: 5743.627)
+2024-11-23 00:30:49,855 - INFO -   - girl (importance: 5140.979)
+2024-11-23 00:30:49,855 - INFO -   - ape (importance: 4196.271)
+2024-11-23 00:30:49,855 - INFO -   - match (importance: 4026.932)
+2024-11-23 00:30:49,855 - INFO -   - humble (importance: 3782.887)
+2024-11-23 00:30:49,855 - INFO -   - gun (importance: 3572.959)
+2024-11-23 00:30:49,855 - INFO -   - look (importance: 3535.561)
+2024-11-23 00:30:49,855 - INFO -   - move (importance: 3308.190)
+2024-11-23 00:30:49,856 - INFO -   - great (importance: 3246.873)
+2024-11-23 00:30:49,856 - INFO -
+LSA Topics:
+2024-11-23 00:30:49,856 - INFO -
+LSA Topics:
+2024-11-23 00:30:49,856 - INFO -
+Topic 1:
+2024-11-23 00:30:49,856 - INFO -   - pay (importance: 0.259)
+2024-11-23 00:30:49,856 - INFO -   - people (importance: 0.242)
+2024-11-23 00:30:49,856 - INFO -   - good (importance: 0.211)
+2024-11-23 00:30:49,856 - INFO -   - match (importance: 0.190)
+2024-11-23 00:30:49,856 - INFO -   - humble (importance: 0.170)
+2024-11-23 00:30:49,857 - INFO -   - see (importance: 0.164)
+2024-11-23 00:30:49,857 - INFO -   - like (importance: 0.160)
+2024-11-23 00:30:49,857 - INFO -   - money (importance: 0.157)
+2024-11-23 00:30:49,857 - INFO -   - well (importance: 0.153)
+2024-11-23 00:30:49,857 - INFO -   - woman (importance: 0.145)
+2024-11-23 00:30:49,857 - INFO -   - get (importance: 0.121)
+2024-11-23 00:30:49,857 - INFO -   - wipe (importance: 0.118)
+2024-11-23 00:30:49,857 - INFO -   - great (importance: 0.118)
+2024-11-23 00:30:49,858 - INFO -   - first (importance: 0.118)
+2024-11-23 00:30:49,858 - INFO -
+Topic 2:
+2024-11-23 00:30:49,858 - INFO -   - good (importance: 0.584)
+2024-11-23 00:30:49,858 - INFO -   - great (importance: 0.243)
+2024-11-23 00:30:49,858 - INFO -   - meet (importance: 0.240)
+2024-11-23 00:30:49,858 - INFO -   - people (importance: 0.223)
+2024-11-23 00:30:49,858 - INFO -   - well (importance: 0.147)
+2024-11-23 00:30:49,858 - INFO -   - far (importance: 0.115)
+2024-11-23 00:30:49,859 - INFO -   - woman (importance: 0.113)
+2024-11-23 00:30:49,859 - INFO -   - tinder (importance: 0.098)
+2024-11-23 00:30:49,859 - INFO -   - nice (importance: 0.092)
+2024-11-23 00:30:49,859 - INFO -   - easy (importance: 0.088)
+2024-11-23 00:30:49,859 - INFO -   - love (importance: 0.085)
+2024-11-23 00:30:49,859 - INFO -   - friend (importance: 0.081)
+2024-11-23 00:30:49,859 - INFO -   - pretty (importance: 0.071)
+2024-11-23 00:30:49,859 - INFO -   - new (importance: 0.069)
+2024-11-23 00:30:49,860 - INFO -
+Topic 3:
+2024-11-23 00:30:49,860 - INFO -   - good (importance: 0.700)
+2024-11-23 00:30:49,860 - INFO -   - pay (importance: 0.262)
+2024-11-23 00:30:49,860 - INFO -   - like (importance: 0.141)
+2024-11-23 00:30:49,860 - INFO -   - see (importance: 0.135)
+2024-11-23 00:30:49,860 - INFO -   - money (importance: 0.099)
+2024-11-23 00:30:49,860 - INFO -   - premium (importance: 0.064)
+2024-11-23 00:30:49,860 - INFO -   - free (importance: 0.057)
+2024-11-23 00:30:49,860 - INFO -   - pretty (importance: 0.054)
+2024-11-23 00:30:49,861 - INFO -   - far (importance: 0.047)
+2024-11-23 00:30:49,861 - INFO -   - subscription (importance: 0.043)
+2024-11-23 00:30:49,861 - INFO -   - unless (importance: 0.042)
+2024-11-23 00:30:49,861 - INFO -   - waste (importance: 0.036)
+2024-11-23 00:30:49,861 - INFO -   - experience (importance: 0.032)
+2024-11-23 00:30:49,861 - INFO -   - without (importance: 0.027)
+2024-11-23 00:30:49,861 - INFO -
+Topic 4:
+2024-11-23 00:30:49,861 - INFO -   - people (importance: 0.500)
+2024-11-23 00:30:49,861 - INFO -   - great (importance: 0.341)
+2024-11-23 00:30:49,862 - INFO -   - meet (importance: 0.323)
+2024-11-23 00:30:49,862 - INFO -   - pay (importance: 0.238)
+2024-11-23 00:30:49,862 - INFO -   - see (importance: 0.177)
+2024-11-23 00:30:49,862 - INFO -   - like (importance: 0.170)
+2024-11-23 00:30:49,862 - INFO -   - new (importance: 0.088)
+2024-11-23 00:30:49,862 - INFO -   - nice (importance: 0.075)
+2024-11-23 00:30:49,862 - INFO -   - friend (importance: 0.054)
+2024-11-23 00:30:49,862 - INFO -   - free (importance: 0.048)
+2024-11-23 00:30:49,863 - INFO -   - easy (importance: 0.044)
+2024-11-23 00:30:49,863 - INFO -   - unless (importance: 0.042)
+2024-11-23 00:30:49,863 - INFO -   - wipe (importance: 0.041)
+2024-11-23 00:30:49,863 - INFO -   - real (importance: 0.037)
+2024-11-23 00:30:49,863 - INFO -
+Topic 5:
+2024-11-23 00:30:49,863 - INFO -   - well (importance: 0.509)
+2024-11-23 00:30:49,863 - INFO -   - tinder (importance: 0.414)
+2024-11-23 00:30:49,863 - INFO -   - pay (importance: 0.346)
+2024-11-23 00:30:49,864 - INFO -   - like (importance: 0.223)
+2024-11-23 00:30:49,864 - INFO -   - see (importance: 0.213)
+2024-11-23 00:30:49,864 - INFO -   - much (importance: 0.101)
+2024-11-23 00:30:49,864 - INFO -   - free (importance: 0.100)
+2024-11-23 00:30:49,864 - INFO -   - unless (importance: 0.065)
+2024-11-23 00:30:49,864 - INFO -   - match (importance: 0.057)
+2024-11-23 00:30:49,864 - INFO -   - ape (importance: 0.056)
+2024-11-23 00:30:49,864 - INFO -   - far (importance: 0.035)
+2024-11-23 00:30:49,864 - INFO -   - people (importance: 0.025)
+2024-11-23 00:30:49,865 - INFO -   - feature (importance: 0.023)
+2024-11-23 00:30:49,865 - INFO -   - version (importance: 0.021)
+2024-11-23 00:30:49,865 - INFO -
+Analysis completed in 2:28:33.590966
+(venv) jirik@jirik-pc:/mnt/c/Users/jirip/OneDrive/Plocha/bumble-analysis$
